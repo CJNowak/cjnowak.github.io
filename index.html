@@ -67,9 +67,9 @@
 			<div class="vertical">
 				<div class="box">
 					<input style="margin: 16px; text-align: center;" id="password" type="password"
-						placeholder="password" /> <br />
-					<button id="loginbutton" type="button">Enter</button>
-					<p id="wrongPassword" style="display: none">wrong password</p>
+						placeholder="Passwort" /> <br />
+					<button id="loginbutton" type="button">Weiter</button>
+					<p id="wrongPassword" style="display: none">Falsches Passwort (Groß-/Kleinschreibung beachten!)</p>
 				</div>
 			</div>
 		</div>
@@ -100,7 +100,7 @@
 					parent.location.hash = hash;
 
 					//$("#wrongPassword").show();
-					$("#password").attr("placeholder", "wrong password");
+					$("#password").attr("placeholder", "Passwort nicht korrekt");
 					$("#password").val("");
 				}
 			});
